@@ -1,6 +1,7 @@
 import AssemblyKeys._
 assemblySettings
 name := "pio-template-text-similarity"
+scalaVersion := "2.11.8"
 organization := "com.kolibero"
 libraryDependencies ++= Seq(
   "org.apache.predictionio" %% "apache-predictionio-core" % "0.10.0-incubating" % "provided",
