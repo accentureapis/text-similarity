@@ -4,7 +4,7 @@ assemblySettings
 
 name := "pio-template-text-similarity"
 
-scalaVersion := "2.22.2"
+scalaVersion := "2.11.8"
 
 organization := "com.kolibero"
 
