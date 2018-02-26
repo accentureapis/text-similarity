@@ -1,9 +1,15 @@
 import AssemblyKeys._
+
 assemblySettings
+
 name := "pio-template-text-similarity"
+
 scalaVersion := "2.11.8"
+
 enablePlugins(JavaAppPackaging)
+
 organization := "com.kolibero"
+
 libraryDependencies ++= Seq(
   "org.apache.predictionio" %% "apache-predictionio-core" % "0.12.0-incubating" % "provided",
   "org.apache.spark"        %% "spark-core"               % "2.1.1"             % "provided",
