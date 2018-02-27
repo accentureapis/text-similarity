@@ -4,8 +4,6 @@ assemblySettings
 
 name := "pio-template-text-similarity"
 
-lazy val root = (project in file(".")).enablePlugins(PlayScala)
-
 scalaVersion := "2.11.8"
 
 organization := "com.kolibero"
