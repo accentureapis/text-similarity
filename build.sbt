@@ -1,3 +1,5 @@
+enablePlugins(JavaAppPackaging)
+
 import AssemblyKeys._
 
 assemblySettings
