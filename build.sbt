@@ -15,7 +15,5 @@ libraryDependencies ++= Seq(
   "org.scalatest"           %% "scalatest"                % "2.2.1"             % "test", 
   "org.glassfish.hk2" % "hk2-utils" % "2.2.0-b27",
   "org.glassfish.hk2" % "hk2-locator" % "2.2.0-b27",
-  "javax.validation" % "validation-api" % "1.1.0.Final",
-  "com.typesafe.play" %% "play" % "2.3.10",
-  "com.typesafe.play" %% "play-test" % "2.3.10
+  "javax.validation" % "validation-api" % "1.1.0.Final"
 ).map(_.excludeAll(ExclusionRule("org.glassfish.hk2"),ExclusionRule("javax.validation")))
