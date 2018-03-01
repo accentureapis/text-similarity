@@ -14,5 +14,5 @@ libraryDependencies ++= Seq(
   "org.apache.spark"        %% "spark-mllib"              % "2.1.1" % "provided",
   "org.scalatest"           %% "scalatest"                % "2.2.1" % "test")
 
-SharedSingletonContext parallelExecution in Test := false
+parallelExecution in Test := false
 
