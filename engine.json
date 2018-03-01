@@ -4,7 +4,7 @@
   "engineFactory": "org.template.similarity.TextSimilarityEngine",
   "datasource": {
     "params" : {
-      "appName": "Text_Similarity",
+      "appName": "textsimapp",
       "word2VecTrainFile":"" 
     }
   },
