@@ -1,5 +1,3 @@
-enablePlugins(JavaAppPackaging)
-
 import AssemblyKeys._
 
 assemblySettings
@@ -19,3 +17,5 @@ libraryDependencies ++= Seq(
   "org.glassfish.hk2" % "hk2-locator" % "2.2.0-b27",
   "javax.validation" % "validation-api" % "1.1.0.Final"
 ).map(_.excludeAll(ExclusionRule("org.glassfish.hk2"),ExclusionRule("javax.validation")))
+
+SharedSingletonContext parallelExecution in Test := false
