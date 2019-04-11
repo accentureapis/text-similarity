@@ -18,8 +18,8 @@
         "numIterations": 1,
         "vectorSize": 100,
         "minTokenSize": 3, 
-        "showText": false,
-        "showDesc": false,
+        "showText": true,
+        "showDesc": true,
         "useExtTrainWords": true,
         "storeClearText": false
       }
