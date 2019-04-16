@@ -19,9 +19,9 @@
         "vectorSize": 100,
         "minTokenSize": 3, 
         "showText": true,
-        "showDesc": false,
+        "showDesc": true,
         "useExtTrainWords": true,
-        "storeClearText": false
+        "storeClearText": true
       }
     }
   ]
